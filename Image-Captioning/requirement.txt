@@ -1,0 +1,14 @@
+The Final-Term Project is about Image Captioning.
+
+You can not use other dataset that is not given.
+
+---------------------------------------------------------------------------------------------------------
+[data]
+
+https://drive.google.com/file/d/1u7Zgb0Pr8zC-3BhVQr6KIQGwBrop1Rwc/view?usp=sharing
+
+ 
+
+[json file]
+
+https://drive.google.com/file/d/1ydQrgr93DR-_KczMfvxElJLvTsoB7bF1/view?usp=sharing
