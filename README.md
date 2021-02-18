@@ -70,17 +70,19 @@ Validation 과정에서도 동일하다. Best model은 valid_loss가 이제껏 �
 주어진 이미지 데이터셋을 (test: 0.05, valid: 0.1, train: 0.85)비율로 나누어 모델을 테스트해보았다.
 ```
 
+![20210219_071251](https://user-images.githubusercontent.com/32799078/108428527-092a1580-7282-11eb-804d-15c6ca5716b9.png)
 
 ### Image에 대한 caption 추론이 잘 되는 것을 확인할 수 있다.
 
 </br></br>
-## :fast_forward: Pre-trained vs from scratch 성능 비교
+# :fast_forward: Pre-trained vs from scratch 성능 비교
+
+![20210219_071452](https://user-images.githubusercontent.com/32799078/108428636-35de2d00-7282-11eb-98af-2199559a4b86.png)
+
+### Pre-trained 버전이 validation loss가 더 낮게 나오는 것을 확인할 수 있다. 따라서 pre-trained의 성능이 조금 더 좋다.
 
 
-Pre-trained 버전이 validation loss가 더 낮게 나오는 것을 확인할 수 있다. 따라서 pre-trained의 성능이 조금 더 좋다.
-
-
-
+</br></br></br></br>
 # 2. What I have tried, studied
 ```
 1. 각 이미지마다 여러 개의 caption이 있다. 따라서 각 이미지를 이 caption의 개수만큼 반복해서 학습한다. 
@@ -102,11 +104,11 @@ Pre-trained 버전이 validation loss가 더 낮게 나오는 것을 확인할 �
    입력 이미지는 CNN에 의해 특징 추출이 되며, CNN의 출력을 RNN의 입력에 연결하여 이미지를 설명하는 텍스트를 생성할 수 있다.
    
    
-   :bulb: Encoder(CNN)
+   Encoder(CNN)
    CNN은 이미지 내용을 smaller feature vector로 인코딩한다. 이 feature vector는 이미지에 대한 정보를 담고 있으며, 
    RNN에 대한 초기 입력으로 사용된다.
    
-   :bulb: Decoder(RNN)
+   Decoder(RNN)
    RNN은 feature vector를 디코딩하여 단어 시퀀스로 변환한다.
 ```
 
