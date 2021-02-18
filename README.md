@@ -1,6 +1,23 @@
 # [Image Captioning]
 ### 인공지능프로젝트 Final Project 
-</br></br>
+</br>
+
+[data]
+
+https://drive.google.com/file/d/10fE3EJpQnAD0-TM88i6Wtr4yki_dus-V/view?usp=sharing
+
+
+[json file]
+
+https://drive.google.com/file/d/12C-oLDIUE6WWVDS97_V6xeV9kgTYQy53/view?usp=sharing
+
+
+[saved best model]
+
+https://drive.google.com/file/d/1wfvSL6ZCigI1MbxL0cih9e1uQd49dqSb/view?usp=sharing
+
+</br>
+
 
 # 1. Implementation
 </br>
