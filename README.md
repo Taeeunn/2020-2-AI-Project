@@ -92,11 +92,14 @@ Validation 과정에서도 동일하다. Best model은 valid_loss가 이제껏 �
 ### Image에 대한 caption 추론이 잘 되는 것을 확인할 수 있다.
 
 </br></br>
-# :fast_forward: Pre-trained vs from scratch 성능 비교
+# :fast_forward: Pre-trained vs from scratch 성능 비교  
+
+</br>
 
 ![20210219_071452](https://user-images.githubusercontent.com/32799078/108428636-35de2d00-7282-11eb-98af-2199559a4b86.png)
 
-### Pre-trained 버전이 validation loss가 더 낮게 나오는 것을 확인할 수 있다. 따라서 pre-trained의 성능이 조금 더 좋다.
+### Pre-trained 버전이 validation loss가 더 낮게 나오는 것을 확인할 수 있다. 
+### 따라서 pre-trained의 성능이 조금 더 좋다.
 
 
 </br></br></br></br>
